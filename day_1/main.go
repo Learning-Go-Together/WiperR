@@ -3,7 +3,7 @@ package main
 import (
 
 	// greetings_errors "example.com/greetings-errors"
-	greetings_multiple "example.com/greetings-multiple"
+	"main/same_mod"
 )
 
 func main() {
@@ -20,8 +20,9 @@ func main() {
 	// 	log.Fatal(error)
 	// }
 	// fmt.Print(message)
-	greetings := greetings_multiple.Multiple([]string{"Shiavng", "Dhruva", "Akshat"})
-	for _, greeting := range greetings {
-		println(greeting)
-	}
+	// greetings := greetings_multiple.Multiple([]string{"Shiavng", "Dhruva", "Akshat"})
+	// for _, greeting := range greetings {
+	// 	println(greeting)
+	// }
+	same_mod.Hello("Shivang")
 }

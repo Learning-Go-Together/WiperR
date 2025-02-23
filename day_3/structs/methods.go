@@ -1,6 +1,9 @@
 package structs
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 type rect struct {
 	width  int
@@ -19,4 +22,6 @@ func StructMethods() {
 	r := rect{width: 10, height: 4}
 	fmt.Println(r.area())
 	fmt.Println(r.diameter())
+	typ := reflect.TypeOf(rect{})
+	fmt.Printf("Struct is %d bytes\n", typ.Size())
 }

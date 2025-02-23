@@ -4,7 +4,8 @@ import (
 	// "day_3/billing_system"
 	// "day_3/closures_adder"
 	// "day_3/structs"
-	"day_3/interfaces"
+	// "day_3/interfaces"
+	"day_3/type_assertion"
 	// "fmt"
 )
 
@@ -13,5 +14,6 @@ func main() {
 	// structs.AnonymousStruct()
 	// structs.EmbeddedStructs()
 	// structs.StructMethods()
-	interfaces.Interafaces()
+	// interfaces.Interafaces()
+	type_assertion.TypeAssertion()
 }

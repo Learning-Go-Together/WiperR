@@ -10,5 +10,6 @@ import (
 func main() {
 	// structs.Struct()
 	// structs.AnonymousStruct()
-	structs.EmbeddedStructs()
+	// structs.EmbeddedStructs()
+	structs.StructMethods()
 }

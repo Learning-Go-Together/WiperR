@@ -17,5 +17,4 @@ func TypeSwitches() {
 	Switch(1)
 	Switch(2.0)
 	Switch(struct{ v string }{v: "Shivang"})
-
 }

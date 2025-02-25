@@ -1,20 +1,19 @@
 package main
 
 import (
-	// "day_5/variadic"
-	// "day_5/maps_go"
-	"day_5/pointers"
-	// "day_5/matrices"
-	// "fmt"
+	"day_5/linked_lists"
 )
 
 func main() {
-	// nums := []int{1, 2, 3, 4}
-	// sum := variadic.Sum(nums...)
-	// fmt.Println(sum)
-	// maps_go.Maps()
-	// maps_go.StructAsKeys()
-	// pointers.Pointers()
-	// pointers.NullPointers()
-	pointers.PointerReceiver()
+	root := LinkedList.New()
+	root.Add(1)
+	root.Add(2)
+	root.Add(3)
+	root.Add(4)
+	root.Display()
+
+	root.Insert(0, 5)
+	root.Display()
+	root.Insert(2, 6)
+	root.Display()
 }

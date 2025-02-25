@@ -1,13 +1,19 @@
 package main
 
-import "day_4/loops"
+import (
+	// "day_4/loops"
+	"day_4/slices"
+)
 
 // "day_4/errors"
 // "fmt"
 // "fmt"
 
 func main() {
-	loops.Loops()
+	slices.Slices()
+	// loops.PrimePrintMain()
+	// loops.Loops()
+	// loops.WhileLoopUsingFor()
 	// errors.Errors()
 	// learn_errors.ErrorInterfaces()
 	// _, err := learn_errors.DivideWithError(10, 0)

@@ -7,3 +7,11 @@ func Loops() {
 		fmt.Println(i)
 	}
 }
+
+func WhileLoopUsingFor() {
+	i := 0
+	for i < 10 {
+		fmt.Println(i)
+		i++
+	}
+}
